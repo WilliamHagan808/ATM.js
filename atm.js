@@ -1,2 +1,2 @@
-"use script"
+"use scrict"
 //console.log("hi")
