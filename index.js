@@ -18,7 +18,7 @@ do{
          break;
          case 6:
              userDone = true;
-         break:
+         break;
          default:
             break;
 
