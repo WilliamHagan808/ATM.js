@@ -7,8 +7,8 @@ function getBalance(){
     console.log(account.balance)
 }
 function validatePin(){
-    let userPin = prompt('Please enter pin.')
-    if(userPin ===account.pin){
+    let userPin = prompt("Please enter pin.")
+    if(userPin == account.pin){
         console.log("Correct Pin");
     }
     else{
