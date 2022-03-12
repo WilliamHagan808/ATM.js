@@ -19,7 +19,7 @@ function validatePin(){
 
 
 function withDraw() {
-    let userWithdraw = parseInt(prompt('Enter amount you wish to withdraw.'))
+    let userWithdraw = parseInt(prompt("Enter amount you wish to withdraw."))
 
     if(Number.isInteger(userWithdraw) && userWithdraw <= account.balance){
         getBalance()

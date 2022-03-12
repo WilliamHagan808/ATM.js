@@ -11,7 +11,7 @@ function mainMenu (){
             atm.getBalance();
             mainMenu();
         case 2:
-            atm.withdraw();
+            atm.withDraw();
             mainMenu();
         case 3:
             atm.deposit();
@@ -24,4 +24,5 @@ function mainMenu (){
     
     }while (userDone === false);
 }
+mainMenu()
 
